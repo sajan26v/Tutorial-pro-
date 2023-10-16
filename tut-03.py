@@ -10,3 +10,5 @@ try:
         print(n, "is less than 100")
 except ValueError:
     print("Invalid input. Please enter a valid number.")
+
+#Part b
