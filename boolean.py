@@ -30,8 +30,17 @@ print(">>> 10 < 20 and spam == 'Hello': ",result_5)"""
         print('Invalid input. Please enter a valid integer.')"""
 
 #part C
+"""exp_1 = True or True
+exp_2 = True or False
+exp_3 = False or True
+exp_4 = False or False
+exp_5 = 10 > 20 or 20 > 10
 
-
+print(">>> ",exp_1)
+print(">>> ",exp_2)
+print(">>> ",exp_3)
+print(">>> ",exp_4)
+print(">>> ",exp_5)"""
 
 #part D
 """while True:
@@ -51,6 +60,15 @@ print(">>> 10 < 20 and spam == 'Hello': ",result_5)"""
             print("Invalid mark. Mark must be between 0 and 100.")
     except ValueError:
         print("Invalid input. Please enter a valid integer.")"""
+
+#part E
+"""expression1 = not True
+expression2 = not False
+expression3 = not ('black' == 'white')
+
+print(f'not True evaluates to {expression1}')
+print(f'not False evaluates to {expression2}')
+print(f'not ("black" == "white") evaluates to {expression3}')"""
 
 #part F
 """while True:
