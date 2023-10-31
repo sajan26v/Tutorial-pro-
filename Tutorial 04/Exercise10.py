@@ -27,6 +27,5 @@ def guess_the_number():
 
     if attempts >= 5:
         print(f"Sorry, you've run out of attempts. The correct number was {secret_number}.")
-
-if __name__ == "__main__":
-    guess_the_number()
+        
+guess_the_number()
